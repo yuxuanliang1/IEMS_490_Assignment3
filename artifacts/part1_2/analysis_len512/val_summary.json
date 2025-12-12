@@ -1,0 +1,14 @@
+{
+  "n_val": 249,
+  "val_acc": 0.4939759036144578,
+  "val_loss": 0.71826171875,
+  "n_errors": 126,
+  "error_rate": 0.5060240963855421,
+  "mean_margin": 0.029541674387981613,
+  "mean_margin_errors": -0.32590496729290674,
+  "error_rate_trunc_any": 0.5714285714285714,
+  "error_rate_no_trunc": 0.497737556561086,
+  "model_dir": "artifacts\\part1_2\\reward_model_gpt2\\last",
+  "data_dir": "artifacts\\part1_1\\processed\\hhrlhf_train_gpt2len512",
+  "seq_len_used": 512
+}
