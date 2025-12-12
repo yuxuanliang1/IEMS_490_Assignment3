@@ -87,7 +87,21 @@ transformers_cache/
 # =========================
 # Artifacts / outputs (recommended: do NOT commit)
 # =========================
-artifacts/
+# Ignore everything in artifacts by default
+artifacts/**
+
+# Allow small, submission-friendly outputs
+!artifacts/**/summary.json
+!artifacts/**/metrics.json
+!artifacts/**/metrics.jsonl
+!artifacts/**/logs.jsonl
+!artifacts/**/eval*.json
+!artifacts/**/eval*.jsonl
+!artifacts/**/analysis*/**
+!artifacts/**/plots/**
+!artifacts/**/figures/**
+!artifacts/**/ANALYSIS.md
+!artifacts/**/README.md
 runs/
 outputs/
 checkpoints/
